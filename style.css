@@ -1,0 +1,53 @@
+body{
+    width: 375px;
+    height: 667px;
+    background-color: hsl(185, 75%, 39%);
+}
+#main-box{
+    width: 325px;
+}
+#box1{
+    background-image: url(/images/bg-pattern-card.svg);
+    text-align: center;
+    height: 180px;
+    border-radius: 10px 10px 0px 0px;
+}
+img{
+     margin-top: 105px;
+     border-radius: 50px;
+     border: 5px solid white;
+}
+#box2{
+    background-color: white;
+    padding-top: 25px;
+    text-align: center;
+    border-radius: 0px 0px 10px 10px;
+}
+ul{
+    list-style: none;
+    display: flex;
+}
+ul li{
+    margin: 5px;
+    padding: 15px;
+}
+b{
+    color: hsl(229, 23%, 23%);
+}
+p,i,li,hr{
+    color: hsl(227, 10%, 46%);
+}
+.attribution{
+    margin-top: 350px;
+}
+
+/* Larger screen */
+@media (min-width:1200px) {
+    body{
+        height: 720px;
+        width: 1440px;
+    }
+    #main-box{
+        margin: 45px 545px;
+    }
+}
